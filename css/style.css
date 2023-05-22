@@ -104,14 +104,14 @@ news {
     position: relative; 
     display: block; 
     overflow: hidden; 
-    widht: 100%;
+    widht: 90%;
 }
 
 news div {
     position: relative; 
     text-align: left; 
     width: 31%; 
-    margin: 10px; 
+    margin: 8px; 
     calc: 32%-20px; 
     height: 500px;
     background: #144788; 
@@ -122,7 +122,7 @@ news div {
 
 news div foto {
     display: block; 
-    width: 100%; 
+    width: 90%; 
     height: 200px; 
     background-size: cover; 
     background-repeat: no-repeat
@@ -132,12 +132,14 @@ news div p {margin: 10px;}
 
 news div h3 {
     margin: 10px; 
+    padding-top: 10px;
     font-size: 20px; 
     font-weight: bold;
+    text-align: center;
 }
 news div a {
     position: absolute; 
-    right: 10px; 
+    right: 100px; 
     bottom: 10px; 
     display: block; 
     width: 95px;
@@ -145,6 +147,7 @@ news div a {
     padding: 10px; 
     background: #f00; 
     color: #fff;
+    margin-bottom: 15px;
 }
 footer {
     display: block;
